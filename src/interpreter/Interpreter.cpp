@@ -26,7 +26,7 @@ void Interpreter::initialize() {
         fileContent += line;
     }
 
-    if (fileContent.size() > 0) {
+    if (!fileContent.empty()) {
         if (fileContent[0] == '#') {
             isExtendedMode = true;
         }

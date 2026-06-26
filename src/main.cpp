@@ -8,6 +8,7 @@ int main(int argc, char** argv) {
     if (argc >= 2) {
         filePath = argv[1];
     } else {
+        std::cerr << "Fatal error: no input file provided." << std::endl;
         return -1;
     }
 
