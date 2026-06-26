@@ -1,5 +1,10 @@
 # BrainfuckInterpreter
 
+## Use the interpreter
+```bash
+./bfinterpreter brainfuck_file_path
+```
+
 ## Print hello world in Brainfuck
 ```brainfuck
 >++++++++[<+++++++++>-]<.>++++[<+++++++>-]<+.+++++++..+++.>>++++++[<+++++++>-]<++.------------.>++++++[<+++++++++>-]<+.<.+++.------.--------.>>>++++[<++++++++>-]<+.
